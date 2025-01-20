@@ -242,7 +242,7 @@ display: flex;
     gap: 30px;
     background-color: #F7F7F7;
     border-radius: 15px;
-    padding: 5px;
+    
     
 }
 
@@ -252,15 +252,15 @@ display: flex;
     width: 600px;
     height: 630px;
     flex-direction: column;
-    box-sizing: border-box;
+    
 }
 .right-sto{
     width: 290px;
     height: 300px;
-    margin: 5px;
+    
     border-radius: 8px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    padding: 2px;
+    margin-top: 5px;
     background-color: #FFFFFF;
     border-radius: 10px;
 }
@@ -273,6 +273,41 @@ display: flex;
     color: #FFFFFF;
     cursor: pointer;
     border-radius: 8px;
+}
+.sto-head{
+    width: 400px;
+    font-size: 1.50rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.sto-des{
+    width: 433px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 28px;
+    margin-left: 20px;
+}
+.storis-div img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.right-sto-head{
+    font-size: .95rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+/* footer section */
+.footer{
+max-width: 1440px;
+height: 519px;
+background-color: #01ACFD;
+color: #FFFFFF;
+margin-top: 70px;
+text-align: center;
 }
 /* Moile responsive view */
 
