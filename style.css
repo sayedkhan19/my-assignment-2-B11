@@ -22,6 +22,10 @@ body{
 .share-flex{
     display: flex;
 }
+.share-descriotion{
+    font-size: 1.25rem;
+    color: #111111;
+}
 
 
 /* header styles */
@@ -63,6 +67,193 @@ ul li a{
     color: #FFFF;
     border: none;
     cursor: pointer;
+}
+.last-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 70px;
+    display: none;
+}
+
+/* banner section */
+.banner{
+    max-width: 1160px;
+    max-height: 575px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.bnr-left{
+    max-width: 640px;
+    max-height: 340px;
+}
+.banner-des{
+    line-height: 61px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+/* main section */
+
+main{
+    margin-top: 60px;
+    max-width: 1440px;
+    height: 879px;
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.main-des1{
+    text-align: center;
+    color: #000000;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.content-card{
+    max-width: 1160px;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.content-card{
+    display: flex;
+    width: 1160px;
+    height: 481;
+    margin-top: 80px;
+    position: relative;
+    justify-content: space-around;
+    
+    
+    
+   
+
+}
+.card1{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    width: 367.5px;
+    height: 481px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.card2{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+gap: 32px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 367.5px;
+    height: 481px;
+}
+.card3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 367.5px;
+    height: 481px;
+}
+.main-hdr{
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn-main{
+    font-size: 15px;
+    font-weight: bold;
+    color: #64C8FF;
+    border: none;
+    background-color: transparent;
+}
+.main-des{
+    color: #808080;
+    line-height: 28px;
+    text-align: center;
+}
+.main-btn{
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    
+}
+.last-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FEA301;
+    color: white;
+
+
+}
+/* .card-img{
+    width: 130px;
+    height: 111px;
+    margin: auto;
+} */
+/* Moile responsive view */
+
+@media screen and (max-width: 576px) {
+    .hdr-des,
+    .hdr-middle,
+    .hdr-right{
+        display: none;
+    }
+    .last-tab{
+        display: block;
+    }
+    header{
+        justify-content: space-between;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 550px;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+    .bnr-left, .banner-des, .share-descriotion{
+        width: 100%;
+        
+    }
+    
+    .bnr-right{
+        width: 100%;
+    }
+    .banner .bnr-right img{
+        width: 100%;
+    }
+    
 }
 
 
