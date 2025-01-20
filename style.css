@@ -51,7 +51,7 @@ align-items: center;
 height: 100%;
 }
 ul li a{
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
 }
 .hdr-right{
@@ -92,29 +92,29 @@ ul li a{
 }
 .banner-des{
     line-height: 61px;
-    font-size: 50px;
+    font-size: 3.2rem;
     font-weight: bold;
     margin-bottom: 24px;
 }
 
 /* main section */
 
-main{
+.main{
     margin-top: 60px;
     max-width: 1440px;
     height: 879px;
     background-image: url("assets/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
+    
     
     
 }
+
 .main-des1{
     text-align: center;
     color: #000000;
-    font-size: 46px;
+    font-size: 2.9rem;
     font-weight: bold;
 }
 
@@ -216,44 +216,64 @@ display: flex;
 
 
 }
-/* .card-img{
-    width: 130px;
-    height: 111px;
-    margin: auto;
-} */
-/* Moile responsive view */
-
-@media screen and (max-width: 576px) {
-    .hdr-des,
-    .hdr-middle,
-    .hdr-right{
-        display: none;
-    }
-    .last-tab{
-        display: block;
-    }
-    header{
-        justify-content: space-between;
-    }
-    .banner{
-        flex-direction: column-reverse;
-        margin-top: 550px;
-        justify-content: center;
-        gap: 30px;
-        
-    }
-    .bnr-left, .banner-des, .share-descriotion{
-        width: 100%;
-        
-    }
-    
-    .bnr-right{
-        width: 100%;
-    }
-    .banner .bnr-right img{
-        width: 100%;
-    }
+.our-stories{
+    max-width: 1440px;
+    height: 1018px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+    position: relative;
+}
+.storis-div{
+    width: 1160px;
+    height: 630px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.sto-left{
+    width: 540px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    padding: 5px;
     
 }
 
+.sto-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 630px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.right-sto{
+    width: 290px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    padding: 2px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.btn-stories{
+    margin-top: 80px;
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/* Moile responsive view */
 
+/* @media screen and (max-width: 576px)  */
