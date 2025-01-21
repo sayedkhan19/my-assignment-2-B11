@@ -516,14 +516,20 @@ height: auto;
 .our-stories{
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     
 }
 .sto-right{
-    width: 55%;
+    width: 52%;
     height: auto;
+    position: relative;
     margin: 0 auto;
     
+    
 }
+
 
 
 
