@@ -85,6 +85,12 @@ ul li a{
 }
 
 /* banner section */
+.color1{
+    color: #FEA301; 
+}
+.color2{
+color: #01ACFD;
+}
 .banner{
     max-width: 1160px;
     height: 575px;
@@ -103,7 +109,16 @@ ul li a{
     font-weight: bold;
     margin-bottom: 24px;
 }
-
+.bnr-btn{
+    width: 197px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+}
 /* main section */
 
 .main{
@@ -462,14 +477,26 @@ header{
     align-items: center;
     justify-items: center;
     height: auto;
+    width: 100%;
 }
 
-.bnr-left, .banner-des, .share-descriotion{
+.bnr-left{
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .banner-des{
-    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.share-descriotion{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 .bnr-right{
     width: 100%;
@@ -477,6 +504,7 @@ header{
 }
 .bnr-right img{
     width: 100%;
+    height: auto;
 }
 
 .main{
@@ -508,29 +536,33 @@ height: auto;
     display: none;
 }
 .sto-right{
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin: 0 auto;
+    
     
 } 
 
 .our-stories{
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+    
+    
     
 }
-.sto-right{
-    width: 52%;
+
+.right-sto{
+    width: 50%;
     height: auto;
-    position: relative;
-    margin: 0 auto;
+}
     
-    
+}
+.right-sto img{
+    width: 100%;
+    height: auto;
 }
 
 
 
 
-} 
+
