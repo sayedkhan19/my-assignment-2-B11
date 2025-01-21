@@ -29,6 +29,9 @@ body{
 
 
 /* header styles */
+.hr{
+    display: none;
+}
 header{
 max-width: 1160px;
 height: 62px;
@@ -84,7 +87,7 @@ ul li a{
 /* banner section */
 .banner{
     max-width: 1160px;
-    max-height: 575px;
+    height: 575px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -143,7 +146,7 @@ ul li a{
 
 }
 .card1{
-    box-sizing: border-box;
+    
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
     width: 367.5px;
@@ -155,10 +158,10 @@ ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 30px;
 }
 .card2{
-    box-sizing: border-box;
+
 border: 0.94px solid rgb(255, 244, 220);
 border-radius: 18.86px;
 gap: 32px;
@@ -173,7 +176,7 @@ display: flex;
     height: 481px;
 }
 .card3{
-    box-sizing: border-box;
+    
     border: 0.94px solid rgb(242, 232, 255);
     border-radius: 18.86px;
     
@@ -422,13 +425,13 @@ padding-top: 200px;
     margin-top: 20px;
 }
 .hdr-middle{
-    display: none;
+    visibility: hidden;
 }
 .hdr-right{
-    display: none;
+    visibility: hidden;
 }
 .hdr-des{
-    display: none;
+    visibility: hidden;
 }
 .hdr-left .mobilw-vew img{
     width: 106px;
@@ -438,13 +441,20 @@ padding-top: 200px;
 header{
     width: 100%;
     height: auto;
-    border-bottom: 2px solid yellow;
-    padding: 20px;
+   
+    margin-top: 20px;
     height: auto;
+    
+    
+}
+
+.hr{
+    display: block;
+    background-color: yellow;
+    margin-top: 50px;
 }
 .banner{
-    margin-top: 6
-    00px;
+    
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
@@ -453,9 +463,13 @@ header{
     justify-items: center;
     height: auto;
 }
-.bnr-left{
+
+.bnr-left, .banner-des, .share-descriotion{
     width: 100%;
     height: auto;
+}
+.banner-des{
+    font-size: 2rem;
 }
 .bnr-right{
     width: 100%;
@@ -464,5 +478,53 @@ header{
 .bnr-right img{
     width: 100%;
 }
+
+.main{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: auto;
+
+}
+.content-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+}
+.card1, .card2, .card3{
+    width: 100%;
+    height:600px;
+    margin-top: 20px;
+    
+}
+.main-btn{
+    display: none;
+}
+.sto-left{
+    display: none;
+}
+.sto-right{
+    width: 100%;
+    height: auto;
+    
+} 
+
+.our-stories{
+    width: 100%;
+    height: auto;
+    
+}
+.sto-right{
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
+    
 }
 
+
+
+} 
