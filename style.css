@@ -308,6 +308,64 @@ background-color: #01ACFD;
 color: #FFFFFF;
 margin-top: 70px;
 text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-top: 200px;
+
+
+}
+.ftr-left{
+    width: 30%;
+    height: 400px;
+    text-align: start;
+    margin-left: 70px;
+    
+    
+}
+.footr-left-des{
+    width: 400px;
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+.ftr-middle{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 30%;
+    height: 400px;
+    margin-left: 50px;
+    
+}
+.ftr-right{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.left-top{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ftr-left-head{
+    font-size: 2.50rem;
+    font-weight: bold;
+}
+.ftr-middle ul li{
+    margin-top: 10px;
+}
+.ftr-middle ul li a{
+    color: #FFFFFF;
+    
+}
+.ftr-last-des{
+    font-size: 1.52rem;
+    font-weight: bold;
 }
 /* Moile responsive view */
 
