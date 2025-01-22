@@ -111,7 +111,7 @@ color: #01ACFD;
 }
 
 .bnr-btn{
-  width: 197px;
+    width: 197px;
     padding: 10px;
     color: white;
     font-weight: bold;
@@ -162,19 +162,19 @@ color: #01ACFD;
 
 }
 .card1{
-    
-    border: 0.94px solid rgb(222, 245, 255);
-    border-radius: 18.86px;
-    width: 367.5px;
-    height: 481px;
-    
-    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+width: 367.5px;
+height: 481px;
+padding: 5px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255,255, 255, 0) 40%),rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
 }
 .card2{
 
@@ -184,12 +184,13 @@ gap: 32px;
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    width: 367.5px;
-    height: 481px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
+width: 367.5px;
+height: 481px;
+padding: 5px;
 }
 .card3{
     
@@ -205,6 +206,7 @@ display: flex;
     gap: 32px;
     width: 367.5px;
     height: 481px;
+    padding: 5px;
 }
 .main-hdr{
     font-size: 24px;
@@ -225,21 +227,31 @@ display: flex;
 }
 .main-btn{
     margin: 50px auto;
-    width: 100px;
+    width: 200px;
     height: 100px;
     display: flex;
     gap: 10px;
     
 }
 .last-btn{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 70px;
     border-radius: 50%;
     background-color: #FEA301;
     color: white;
+    font-size: 3rem;
     cursor: pointer;
+    border: none;
 
 
+}
+
+/* marquee */
+marquee{
+    font-size: 2rem;
+    color: black;
+    margin: 10px auto;
+    font-weight: bold;
 }
 .our-stories{
     max-width: 1440px;
@@ -380,12 +392,12 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding-top: 200px;
+padding-top: 100px;
 
 
 }
 .ftr-left{
-    width: 30%;
+   max-width: 30%;
     height: 400px;
     text-align: start;
     margin-left: 70px;
@@ -393,7 +405,7 @@ padding-top: 200px;
     
 }
 .footr-left-des{
-    width: 400px;
+   max-width: 400px;
     margin-top: 20px;
     font-size: 1.25rem;
 }
@@ -402,13 +414,13 @@ padding-top: 200px;
     display: flex;
     flex-direction: column;
     text-align: start;
-    width: 30%;
+   max-width: 30%;
     height: 400px;
     margin-left: 50px;
     
 }
 .ftr-right{
-    width: 30%;
+   max-width: 30%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -482,28 +494,34 @@ header{
     align-items: center;
     justify-items: center;
     height: auto;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .bnr-left{
-    width: 100%;
+    
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    max-width: 100%;
     
 }
 .banner-des{
     width: 100%;
     height: auto;
     margin-top: 20px;
+    font-size: 100px;
+    line-height: 110px;
+    
     
 }
 .share-descriotion{
-    width: 100%;
+    width: 70%;
     height: auto;
     margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
 }
 .bnr-right{
     width: 100%;
@@ -512,6 +530,7 @@ header{
 .bnr-right img{
     width: 100%;
     height: auto;
+    /* height: auto; */
 }
 
 .main{
@@ -583,4 +602,26 @@ height: auto;
 .btn-stories{
     margin-bottom: 50px;
 }
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    left: 0;
+
+}
+.ftr-left, .ftr-middle, .ftr-right{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-top: 20px;
+    padding: 0;
+    margin: 0;
+    justify-items: left;
+}
+
+
 }
