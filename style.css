@@ -12,10 +12,10 @@
 }
 
 body{
-    width: 1440px;
-    
-    background-color: #F7F7F7;
-    margin: 0 auto;
+  width: 1440px;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  height: auto;
 }
 /* sahre flex */
 
@@ -101,7 +101,7 @@ color: #01ACFD;
 }
 .bnr-left{
     max-width: 640px;
-    max-height: 340px;
+    height: 340px;
 }
 .banner-des{
     line-height: 61px;
@@ -109,8 +109,9 @@ color: #01ACFD;
     font-weight: bold;
     margin-bottom: 24px;
 }
+
 .bnr-btn{
-    width: 197px;
+  width: 197px;
     padding: 10px;
     color: white;
     font-weight: bold;
@@ -252,20 +253,32 @@ display: flex;
     position: relative;
 }
 .storis-div{
-    width: 1160px;
-    height: 630px;
+   max-width: 1260px;
+    height: 830px;
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    
 }
 .sto-left{
-    width: 540px;
+  max-width: 45%;
     height: 630px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     background-color: #F7F7F7;
     border-radius: 15px;
+    position: relative;
+    
+    
+}
+.sto-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 630px;
+    gap: 3px;
+    flex-direction: column;
     position: relative;
     
     
@@ -281,9 +294,10 @@ display: flex;
     align-items: center;
     position: absolute;
     left: 38.35px;
-top: 314.14px;
+    top: 300.14px;
 
 }
+
 .card-sto2{
 /* November 19, 2019 */
 position: absolute;
@@ -306,17 +320,7 @@ background: rgb(149, 178, 38);
     
 }
 
-.sto-right{
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px;
-    height: 630px;
-    gap: 3px;
-    flex-direction: column;
-    position: relative;
-    
-    
-}
+
 .right-sto{
     width: 290px;
     height: 300px;
@@ -328,7 +332,7 @@ background: rgb(149, 178, 38);
     border-radius: 10px;
 }
 .btn-stories{
-    margin-top: 80px;
+    margin-top: 15px;
     width: 197px;
     height: 50px;
     padding: 10px;
@@ -336,6 +340,7 @@ background: rgb(149, 178, 38);
     color: #FFFFFF;
     cursor: pointer;
     border-radius: 8px;
+    margin-bottom: 70px;
 }
 .sto-head{
     width: 400px;
@@ -477,7 +482,7 @@ header{
     align-items: center;
     justify-items: center;
     height: auto;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .bnr-left{
@@ -487,11 +492,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .banner-des{
     width: 100%;
     height: auto;
     margin-top: 20px;
+    
 }
 .share-descriotion{
     width: 100%;
@@ -536,33 +543,44 @@ height: auto;
     display: none;
 }
 .sto-right{
-    width: 50%;
+    width: 100%;
     height: auto;
-    margin: 0 auto;
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 0;
     
 } 
+/* this is share card */
+.sto2-child{
+    position: absolute;
+    left: 38.35px;
+    top: 210.81px;
+}
+/* this is share card */
+
 
 .our-stories{
     width: 100%;
     height: auto;
-    
-    
-    
-}
+    padding-bottom: 20px;
+    }
 
 .right-sto{
-    width: 50%;
+    width: 100%;
     height: auto;
+    gap: 2px;
 }
-    
-}
+.card-sto2{
+    position: absolute;
+    margin-top: 50px;
+}    
+
 .right-sto img{
     width: 100%;
     height: auto;
 }
-
-
-
-
-
+.btn-stories{
+    margin-bottom: 50px;
+}
+}
