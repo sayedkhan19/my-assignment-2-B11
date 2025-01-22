@@ -534,7 +534,13 @@ header{
     height: auto;
     /* height: auto; */
 }
-
+.bnr-btn{
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
 .main{
 display: flex;
 flex-direction: column;
@@ -608,24 +614,16 @@ bottom: 0;
     height: auto;
 }
 .btn-stories{
-    margin-bottom: 50px;
-    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 .our{
     text-align: center;
 }
-/* .footer{
-display: flex;
-flex-direction: column;
-height: auto;
-top: 0;
-margin: 0;
-padding: 0;
-text-align: center;
-    
-
-} */
-
 .footer{
     max-width: 100%;
     height: auto;
@@ -711,13 +709,23 @@ font-size: 80px;
 font-weight: 300;
 margin-top: 50px;
 }
-.left-top img{
-   max-width: 500px;
-    height: auto;
-}
+
 .ftr-left{
-    width: 100%;
+   max-width: 100%;
     height: auto;
+    
 }
+.left-top{
+   max-width: 100%;
+    height: auto;
+    display: flex;
+    
+    
+}
+.jhamela{
+    width: 300px;
+    height: 250px;
+}
+
 
 }
