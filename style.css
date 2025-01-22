@@ -74,6 +74,8 @@ ul li a{
     color: #FFFF;
     border: none;
     cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 .last-tab{
     display: flex;
@@ -119,6 +121,8 @@ color: #01ACFD;
     border-radius: 8px;
     margin-top: 24px;
     cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 /* main section */
 
@@ -225,7 +229,7 @@ padding: 5px;
     text-align: center;
 }
 .main-btn{
-    margin: 50px auto;
+    margin: 100px auto;
     width: 200px;
     height: 100px;
     display: flex;
@@ -263,6 +267,10 @@ marquee{
     background-image: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
     position: relative;
 }
+.our{
+    font-size: 2.875rem;
+    font-weight: bold;
+}
 .storis-div{
    max-width: 1260px;
     height: 830px;
@@ -294,6 +302,10 @@ marquee{
     
     
 }
+.less-width{
+    width: 127px;
+    height: 38px;
+}
 .card-sto1{
     width: 174px;
     height: 47px;
@@ -321,7 +333,7 @@ align-items: center;
 color: white;
 padding: 5px;
 left: 38.35px;
-top: 157.81px;
+top: 159.81px;
 cursor: pointer;
 
 background: rgb(149, 178, 38);
@@ -588,6 +600,8 @@ bottom: 0;
     left: 38.35px;
     top: 210.81px;
 }
+
+
 /* this is share card */
 
 
@@ -668,12 +682,14 @@ bottom: 0;
     height: auto;
     max-width: 100%;
     display: flex;
+    gap: 5px;
+    padding-left: 50px;
     
 }
 .ftr-right-social img{
     width: 150px;
     height: auto;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-bottom: 100px;
     margin-top: 50px;
 }
